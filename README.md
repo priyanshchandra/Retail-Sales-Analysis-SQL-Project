@@ -1,6 +1,5 @@
 📘 Project Overview
 
-'''
 This project demonstrates SQL skills used by a Data Analyst to clean, explore, and analyze retail sales data.
 The goal is to uncover key business insights such as sales trends, customer behavior, and product performance.
 
