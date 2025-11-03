@@ -1,89 +1,90 @@
-📘 Project Overview
+SQL Retail Sales Analysis - P1
 
-This project demonstrates SQL skills used by a Data Analyst to clean, explore, and analyze retail sales data.
-The goal is to uncover key business insights such as sales trends, customer behavior, and product performance.
+Project Overview
 
-🎯 Project Objectives
+This project demonstrates SQL skills used by data analysts to clean, explore, and analyze retail sales data.
+The goal is to uncover insights on sales performance, customer behavior, and category trends.
 
-Create and structure a retail sales database
+-- Project Objectives
 
-Perform data cleaning and handle null values
+* Create and structure a retail sales database
 
-Explore customer and category data
+* Perform data cleaning and handle missing values
 
-Analyze sales trends and business patterns
+* Explore key metrics such as customers and categories
 
-🛠️ Tools & Skills Used
+* Analyze sales trends and business questions through SQL queries
 
-SQL (MySQL Syntax)
+-- Tools and Skills Used
 
-Data Cleaning & Filtering
+* SQL (MySQL / PostgreSQL)
 
-Aggregations & Grouping
+* Data Cleaning and Filtering
 
-Window Functions
+* Aggregations and Grouping
 
-Ranking and Date Functions
+* Window and Date Functions
 
-📂 Project Steps
-1️⃣ Database Setup
+* Analytical Query Writing
 
-Created a database named sql_project_p2
+-- Project Steps
 
-Created a table retail_sales with columns for transaction details, customer info, and sales data
+1. Database Setup
 
-2️⃣ Data Cleaning
+* Created a database named sql_project_p2.
 
-Checked for missing and null values
+* Created a table retail_sales containing transaction details, customer info, and sales metrics.
 
-Removed incomplete records to ensure data quality
+2. Data Cleaning
 
-3️⃣ Data Exploration
+* Checked for missing or null values.
 
-Found total number of transactions
+* Removed incomplete records to ensure accurate analysis.
 
-Checked total unique customers
+3. Data Exploration
 
-Identified all unique product categories
+* Counted total transactions and unique customers.
 
-4️⃣ Data Analysis & Findings
+* Retrieved all distinct product categories.
 
-Retrieve all sales made on '2022-11-05'
+4. Business Analysis
 
-Retrieve clothing sales where quantity > 4 in Nov 2022
+* Retrieve all sales made on 2022-11-05.
 
-Calculate total sales for each category
+* Retrieve clothing transactions with quantity greater than 4 in November 2022.
 
-Find average age of customers who purchased from Beauty category
+* Calculate total sales and total orders per category.
 
-Find all transactions with total_sale > 1000
+* Find average age of customers in the Beauty category.
 
-Find number of transactions by gender in each category
+* Retrieve transactions with total sales greater than 1000.
 
-Find average sale per month and best-selling month each year
+* Count total transactions by gender in each category.
 
-Find top 5 customers by total sales
+* Find average sale per month and identify best-selling months each year.
 
-Find unique customers per category
+* Identify top 5 customers based on total sales.
 
-Create sales shifts (Morning, Afternoon, Evening) and count total orders
+* Count unique customers per product category.
 
-📊 Insights
+* Categorize sales into time-based shifts (Morning, Afternoon, Evening).
 
-Found peak sales periods and high-value customers
+-- Key Insights
 
-Identified best-performing product categories
+* Identified high-performing categories and best-selling months.
 
-Observed gender-based and time-based sales patterns
+* Determined top customers by total sales.
 
-Determined best-selling months and shifts
+* Observed sales distribution by gender and shift.
 
-🧾 Conclusion
+* Cleaned data improved analysis accuracy and reliability.
 
-This project helped demonstrate key SQL techniques for real-world data analysis.
-It shows how to transform raw sales data into business insights that can drive better decisions.
+--Conclusion
 
-👨‍💻 Author
+This project highlights the use of SQL for practical business analysis tasks.
+It demonstrates how structured queries can uncover insights from raw sales data and support decision-making.
+
+Author
 
 Priyansh Chandra
-SQL & Data Analytics Enthusiast
+Data Analytics and SQL Enthusiast
